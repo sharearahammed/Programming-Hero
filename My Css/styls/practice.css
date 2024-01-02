@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    text-align: center;
+    padding: 5px;
+
+}
+.box{
+    /* height: 300px; */
+}
+input{
+    height: 25px;
+    width: 300px;
+    margin: 8px;
+    border: 2px solid black;
+}
+button{
+    font-family:'Arial, Helvetica, sans-serif';
+    font-size: 20px;
+    text-align: center;
+    width: 320px;
+    text-decoration: none;
+    display: inline-block;
+}
+button .button{
+    font-family:'Arial, Helvetica, sans-serif';
+    font-size: 20px;
+    text-align: center;
+    width: 320px;
+}
+
