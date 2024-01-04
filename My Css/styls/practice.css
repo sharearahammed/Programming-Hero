@@ -2,18 +2,64 @@
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header {
+    position: absolute;
+    height: 100vh;
+    font-size: 3rem;
+    font-family: 'Arial, Helvetica, sans-serif';
+    text-align: center;
+    color: rgba(1, 101, 225);
+    font-weight: bold;
+}
+.head2{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
 .form{
     text-align: center;
     padding: 5px;
+    border:3px solid aliceblue;
+    box-shadow: 0px 1px 1px 0  rgba(0, 0, 0, 0.721);
+    margin: 20px;
+    padding: 30px;
+    width: 21rem;
+    height: 23em;
+    border-radius: 10px;
+    transition: 1s;
+    
 
 }
-.box{
-    /* height: 300px; */
+.form:hover{
+    text-align: center;
+    padding: 5px;
+    border:3px solid aliceblue;
+    box-shadow: 0px 5px 3px 0px black ;
+    transform: scale(1.03);
+    transition: 0.3s;
+    margin: 20px;
+    padding: 30px;
+    width: 21rem;
+    height: 23em;
+    border-radius: 10px;
+    
 }
+
 input{
     height: 25px;
     width: 300px;
+    padding: 12px;
     margin: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    
+}
+input:hover{
     border: 2px solid black;
 }
 button{
@@ -24,10 +70,31 @@ button{
     text-decoration: none;
     display: inline-block;
 }
-button .button{
-    font-family:'Arial, Helvetica, sans-serif';
-    font-size: 20px;
-    text-align: center;
-    width: 320px;
+#button button{
+    margin: 20px auto;
+    background-color: rgba(1, 101, 225);;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    
 }
+#button button:hover{
+    background-color: rgba(1, 5, 225, 0.882);;
+}
+
+.forget{
+    padding: 10px;
+}
+#button2 button{
+    margin-top: 28px;
+    background-color: rgba(0, 153, 0);
+    padding: 4px;
+    border-radius: 4px;
+    width: 15rem;
+    color: white;
+}
+#button2 button:hover{
+    background-color: green;
+}
+
 
